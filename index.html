@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курсы BASILIC TRADING</title>
+  <style>
+@font-face {
+  font-family: logoFont;
+  src: url(https://nacchip.github.io/files/fonts/arco.ttf);
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  -webkit-user-drag: none;
+}
+body {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+.logo {
+    font-family: logoFont;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+.mini_title {
+    font-family: logoFont;
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #555;
+}
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn {
+  transition: 0.7s;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  transition: 0.7s;
+  background-color: #fff;
+  color: #337ab7;
+  border: 1px solid #337ab7;
+}
+.btn-outline:hover {
+  transition: 0.7s;
+  background-color: #337ab7;
+  color: #fff;
+}
+.btn-outline {
+  transition: 0.7s;
+  background-color: transparent;
+  border: 1px solid #337ab7;
+  color: #337ab7;
+}
+.courses {
+    padding: 80px 0;
+}
+.courses-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course {
+    width: 30%;
+    margin-bottom: 30px;
+}
+.course img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.course h3 {
+    margin-top: 10px;
+}
+.course p {
+    margin-bottom: 15px;
+}
+.about {
+    padding: 80px 0;
+}
+.banner {
+    width: 100%;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.contacts_logo {
+  position: absolute;
+  transition: 0.7s;
+  filter: invert(100%) sepia(3%) saturate(7414%) hue-rotate(44deg) brightness(120%) contrast(103%);
+}
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="/basilic" class="logo">BASILIC TRADING</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#courses">Курсы</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img src="files/photo/banner.png" class="banner" alt="баннер" draggable="false"><br><br><br>
+        <a href="#courses" class="btn">Посмотреть курсы</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" class="courses">
+    <div class="container">
+      <h2 class="mini_title">Наши курсы</h2>
+      <div class="courses-grid">
+        <div class="course" id="course">
+          <a href="blyad-python-part1">
+            <img src="files/photo/blyad_python_banner.png" width="30%" alt="лого курса 1" draggable="false">
+            <h3>название курса 1</h3>
+            <p>описание курса 1</p>
+            <button class="btn btn-outline">получить доступ (39 USD₣)</button>
+          </a>
+        </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="mini_title">О нас</h2>
+      <p>Мы - команда <b>BASILIC!</b> С незапамятных времён изучаем основы трейдинга, бизнеса и саморазвития и с радостью поможем вам обуздать все направления за небольшую копеечку в кармане ;)</p>
+    </div>
+  </section>
+
+  <section id="contacts" class="about">
+    <div class="container">
+      <h2 class="mini_title">Контакты</h2>
+      <a href="https://discord.com/channels/1254810387522519161/1254810388034359327" target="_blank" class="btn" id="discord_button"><img width="25px" src="/blyad-coding/files/photo/discord.svg" id="discord_logo" class="contacts_logo" draggable="false">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;discrord сервер</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank" class="btn" id="youtube_button"><img width="25px" src="/blyad-coding/files/photo/youtube.svg" id="youtube_logo" class="contacts_logo" draggable="false">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;youtube канал</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 1939 BASILIC. All rights reserved</p>
+    </div>
+  </footer>
+<script>
+let discord_button = document.getElementById("discord_button");
+let discord_logo = document.getElementById("discord_logo");
+let youtube_button = document.getElementById("youtube_button");
+let youtube_logo = document.getElementById("youtube_logo");
+let course = document.getElementById("course");
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+  course.style.width = "99%"
+}
+
+discord_button.onmouseover = function (e) {
+  discord_logo.style.filter = "invert(48%) sepia(10%) saturate(2759%) hue-rotate(166deg) brightness(89%) contrast(99%)";
+}
+discord_button.onmouseout = function (e) {
+  discord_logo.style.filter = "invert(99%) sepia(99%) saturate(3%) hue-rotate(201deg) brightness(108%) contrast(100%)";
+}
+youtube_button.onmouseover = function (e) {
+  youtube_logo.style.filter = "invert(48%) sepia(10%) saturate(2759%) hue-rotate(166deg) brightness(89%) contrast(99%)";
+}
+youtube_button.onmouseout = function (e) {
+  youtube_logo.style.filter = "invert(99%) sepia(99%) saturate(3%) hue-rotate(201deg) brightness(108%) contrast(100%)";
+}
+</script>
+</body>
+
+  </html>
